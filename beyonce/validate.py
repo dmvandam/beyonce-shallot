@@ -6,8 +6,8 @@ methods/functions themselves.
 
 import numpy as np
 from typing import Any, Union
-from errors import InvalidBoundsError, InvalidDimensionsError
-from errors import InvalidShapeError, ValueOutsideRangeError
+from .errors import InvalidBoundsError, InvalidDimensionsError
+from .errors import InvalidShapeError, ValueOutsideRangeError
 
 
 def boolean(parameter: Any, name: str) -> bool:

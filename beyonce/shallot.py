@@ -9,14 +9,14 @@ import logging
 import numpy as np
 from tqdm import tqdm
 
-from grid_names import Name
-from grid_units import Unit
-from grid_parameters import Parameters
-from grid_diagnostics import Diagnostics
-from grid_components import Property, Gradient
+from .grid_names import Name
+from .grid_units import Unit
+from .grid_parameters import Parameters
+from .grid_diagnostics import Diagnostics
+from .grid_components import Property, Gradient
 
-import validate
-from errors import LoadError, OriginMissingError
+import beyonce.validate as validate
+from .errors import LoadError, OriginMissingError
 
 
 TEMP_SAVE_DIR = "./.temp_shallot"

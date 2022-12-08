@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # beyonce modules
-import validate
+import beyonce.validate as validate
 
 
 

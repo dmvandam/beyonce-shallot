@@ -8,8 +8,8 @@ from __future__ import annotations
 import os
 import numpy as np
 
-import validate
-from errors import LoadError, InvalidBoundsError, OriginMissingError
+import beyonce.validate as validate
+from .errors import LoadError, InvalidBoundsError, OriginMissingError
 
 
 class Parameters:

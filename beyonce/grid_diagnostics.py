@@ -8,10 +8,10 @@ from __future__ import annotations
 import os
 import numpy as np
 
-from grid_parameters import Parameters
+from .grid_parameters import Parameters
 
-import validate
-from errors import LoadError 
+import beyonce.validate as validate
+from .errors import LoadError 
 
 
 

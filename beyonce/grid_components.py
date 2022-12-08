@@ -6,12 +6,12 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-from grid_names import Name
-from grid_units import Unit
-from grid_parameters import Parameters
+from .grid_names import Name
+from .grid_units import Unit
+from .grid_parameters import Parameters
 
-import validate
-from errors import LoadError
+import beyonce.validate as validate
+from .errors import LoadError
 
 
 class Property:

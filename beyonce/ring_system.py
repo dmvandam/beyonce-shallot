@@ -11,7 +11,7 @@ from matplotlib.path import Path
 from matplotlib.patches import Ellipse, Circle, PathPatch
 
 # beyonce modules
-import validate
+import beyonce.validate as validate
 
 
 class Ring:
