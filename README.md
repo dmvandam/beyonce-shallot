@@ -4,7 +4,6 @@ This repository contains all the necessary information to produce the figures an
 &nbsp; 
 
 ## Introduction
----
 
 <em>BeyonCE</em> (Beyond Common Eclipsers) is a python package that is used to simplify the exploration of the parameter space that describes circumplanetary ring system transits.
 It is split up into two main modules:
@@ -17,19 +16,19 @@ This repository concerns itself with the Shallot Explorer.
 <em>Shallot Explorer</em> is the module contained and described here.
 It is used to reduce the very large parameter space spanned by circumplanetary ring system transits.
 
-| Sub-System       | | Parameter                   |
-|------------------|-|-----------------------------|
-| Star             | | Radius                      |
-|                  | | Limb-Darkening              |
-| Planet           | | Radius                      |
-| Rings            | | Inner Radius                |
-|                  | | Outer Radius                |
-|                  | | Opacity                     |
-| System Geometry  | | Inclination                 |
-|                  | | Tilt                        |
-| Transit Geometry | | Impact Parameter            |
-|                  | | Time of Maximum Occultation |
-|                  | | Eclipse Duration            | 
+| Sub-System       | Parameter                   |
+|------------------|-----------------------------|
+| Star             | Radius                      |
+|                  | Limb-Darkening              |
+| Planet           | Radius                      |
+| Rings            | Inner Radius                |
+|                  | Outer Radius                |
+|                  | Opacity                     |
+| System Geometry  | Inclination                 |
+|                  | Tilt                        |
+| Transit Geometry | Impact Parameter            |
+|                  | Time of Maximum Occultation |
+|                  | Eclipse Duration            | 
 
 It does this by producing a 3D grid with coordinate axes: midpoint of the disc, or planet location $(\delta x, \delta y)$ , and the radius scale factor $(f_R)$.
 The radius scale factor is a value (> 1) that relates the radius of the disc to the smallest possible radius of a disc that is centred at $(\delta x, \delta y)$ and has a given eclipse duration.
@@ -45,7 +44,6 @@ Valid Gradients refers to the fact that gradients measured in the light curve of
 &nbsp; 
 
 ## Contents
----
 
 This repository contains
 - <em>Shallot Explorer</em> code (with unit tests)
