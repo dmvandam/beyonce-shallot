@@ -31,8 +31,8 @@ It is used to reduce the very large parameter space spanned by circumplanetary r
 |                  | | Time of Maximum Occultation |
 |                  | | Eclipse Duration            | 
 
-It does this by producing a 3D grid with coordinate axes: midpoint of the disc, or planet location ($\delta x$, $\delta y$), and the radius scale factor ($f_R$).
-The radius scale factor is a value (> 1) that relates the radius of the disc to the smallest possible radius of a disc that is centred at ($\delta x$, $\delta y$) and has a given eclipse duration.
+It does this by producing a 3D grid with coordinate axes: midpoint of the disc, or planet location $(\delta x, \delta y)$ , and the radius scale factor $(f_R)$.
+The radius scale factor is a value (> 1) that relates the radius of the disc to the smallest possible radius of a disc that is centred at $(\delta x, \delta y)$ and has a given eclipse duration.
 
 It can subsequently cut down the parameter space by introducing two astrophysical restrictions, namely:
 1. Hill Sphere Stability
